@@ -1,6 +1,6 @@
-#include <iostream>
-#include <string>
-
-int main (){
-  std::cout<<"hello world"<<endl;
+int main(void){
+  A:
+    goto A;
+  goto A;
+  return 0;
 }
